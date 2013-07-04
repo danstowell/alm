@@ -240,7 +240,7 @@ alm <- function(doi = NULL, pmid = NULL, pmcid = NULL, mdid = NULL,
 							stop("info must be one of history, event or detail")
 				} else
 				{
-				  sumby <- paste0("by_", match.arg(sum_metrics, choices=c("day","month","year")))
+				  sumby <- paste("by_", match.arg(sum_metrics, choices=c("day","month","year")),sep='')
           
 				  data_2 <- data_$sources
 				  servs <- sapply(data_2, function(x) x$name)
