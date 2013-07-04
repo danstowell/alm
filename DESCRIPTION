@@ -4,6 +4,8 @@ Date: 2013-04-25
 Description: R wrapper to the almetrics API platform developed by PLoS
 Title: R wrapper to the almetrics API platform developed by PLoS
 License: CC0
+Author: Scott Chamberlain
+Maintainer: Scott Chamberlain <myrmecocystus@gmail.com>
 Authors@R: c(person("Scott", "Chamberlain", role = c("aut", "cre"),
     email = "myrmecocystus@gmail.com"),
     person("Carl", "Boettiger", role = "aut",
